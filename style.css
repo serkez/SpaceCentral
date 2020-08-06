@@ -3,18 +3,19 @@
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQOzyW45zTSRNuTNk2i6edWEu5Ld1u18i1ICS-ju2LMAbpRJ4-al87-sYYNLyCLLp0SLz64gcaHGH_P_yFe0bmkVFEN6uuLfWjpyYz_&usqp=CAU&ec=45682163");
     color:rgb(187, 187, 194);
     font-family: cursive;
-}
-
+ }
+html{
+    overflow-x: hidden; 
+ }  
 h1{
     font-size: 300%;
     text-transform: uppercase;
     color: rgb(231, 231, 233);
     text-align: center;
 }
-h2{
-    color: rgb(231, 231, 233);
+h3{
+    font-size: 40px;
 }
-
 #backtop{
     font-size: 15px;
     color: rgb(143, 145, 146);
@@ -31,25 +32,25 @@ h2{
  {
     background-image: none;
     background-color: rgb(28, 28, 29);
-    font-size: 23.7px;
+    font-size: 22.7px;    
  }
  .navbar-header{
-      height: 100px;
+      height: 100px; 
  }
  .navbar-item{
      margin-top: 25px;
+     border-left: solid 1px;
+     border-right: solid 1px;
  }
 .navbar-brand{
     background-image: none;
-   
     font-size: 0px;
     font-weight: bolder;
-    
  }
 .navbar-item:active,
 .navbar-item:hover, #current{
-    background-color:rgb(53, 53, 54);
-  
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px  rgb(255, 255, 255);
 }
 #logo{
     width: 165px;
@@ -65,37 +66,42 @@ h2{
 
 /* home */
 #welcome{
-    font-size: 30px;
+    font-size:30px;
     text-align: center;
+    margin: 50px;
 }
-.history-p{
-    font-size: 20px;
-}
-.history-pic{
-    float: right;
-    margin: 10px;
-    padding: 4px;
-    border: solid rgb(101, 101, 109) 2px;
-    text-align: center;
-}
-.home-info{
+.home-info-a{
      background-color:rgb(35, 35, 39);
-     font-size: 20px;
-     width: 75%;
+     font-size: 25px;
+     max-width: 75%;
      float: right;
      padding: 50px;
+     margin-bottom: 50px;
 }
-.info-pic{
+.info-pic-a{
     float: right;
     margin: 20px;
     text-align: center;
 }
+.home-info-b{
+    background-color:rgb(35, 35, 39);
+    font-size: 28px;
+    max-width: 75%;
+    float: left;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+.info-pic-b{
+        float: left;
+        margin: 20px;
+        text-align: center;
+}
+
 /* feed and videos */
 .live{
     width: 71%;
     height: 498px;
 }
-
 .l{
     text-align: center;
     font-size: 250%;
@@ -135,7 +141,6 @@ h2{
     border-style: solid;
     align-items: center;
     margin: 3%;
-
 }
 .pics-a{
    float: left;
@@ -146,9 +151,25 @@ h2{
     float: right;
     width: 48.5%;
     padding-right: 3%;
+   
 }
 
-
-
-  
+/* history */
+.history-p{
+    font-size: 25px;
+}
+.history-pic-b{
+    float: right;
+    margin: 10px;
+    padding: 4px;
+    border: solid rgb(101, 101, 109) 2px;
+    text-align: center;
+}
+.history-pic-a{
+    float: left;
+    margin: 10px;
+    padding: 4px;
+    border: solid rgb(101, 101, 109) 2px;
+    text-align: center;
+}
 
