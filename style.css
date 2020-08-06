@@ -1,0 +1,154 @@
+/* all */
+ body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQOzyW45zTSRNuTNk2i6edWEu5Ld1u18i1ICS-ju2LMAbpRJ4-al87-sYYNLyCLLp0SLz64gcaHGH_P_yFe0bmkVFEN6uuLfWjpyYz_&usqp=CAU&ec=45682163");
+    color:rgb(187, 187, 194);
+    font-family: cursive;
+}
+
+h1{
+    font-size: 300%;
+    text-transform: uppercase;
+    color: rgb(231, 231, 233);
+    text-align: center;
+}
+h2{
+    color: rgb(231, 231, 233);
+}
+
+#backtop{
+    font-size: 15px;
+    color: rgb(143, 145, 146);
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+/*navigation bar */
+.navbar-header, 
+.navbar-item, 
+ #myNavbar
+ {
+    background-image: none;
+    background-color: rgb(28, 28, 29);
+    font-size: 23.7px;
+ }
+ .navbar-header{
+      height: 100px;
+ }
+ .navbar-item{
+     margin-top: 25px;
+ }
+.navbar-brand{
+    background-image: none;
+   
+    font-size: 0px;
+    font-weight: bolder;
+    
+ }
+.navbar-item:active,
+.navbar-item:hover, #current{
+    background-color:rgb(53, 53, 54);
+  
+}
+#logo{
+    width: 165px;
+    height: auto;
+}
+.logo-image{
+    width: 165px;
+    height: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -5px;
+}
+
+/* home */
+#welcome{
+    font-size: 30px;
+    text-align: center;
+}
+.history-p{
+    font-size: 20px;
+}
+.history-pic{
+    float: right;
+    margin: 10px;
+    padding: 4px;
+    border: solid rgb(101, 101, 109) 2px;
+    text-align: center;
+}
+.home-info{
+     background-color:rgb(35, 35, 39);
+     font-size: 20px;
+     width: 75%;
+     float: right;
+     padding: 50px;
+}
+.info-pic{
+    float: right;
+    margin: 20px;
+    text-align: center;
+}
+/* feed and videos */
+.live{
+    width: 71%;
+    height: 498px;
+}
+
+.l{
+    text-align: center;
+    font-size: 250%;
+}
+
+/* facts */
+.f{
+    border-width: 3px;
+    border-radius: 15px;
+    border-style: solid;
+    background-color: rgb(52, 52, 73);
+    padding: 10px;
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 20px;
+}
+#a{
+    color: rgb(231, 79, 79);
+}
+#b{
+    color:rgb(255, 123, 0)
+}
+#c{
+    color: rgb(247, 244, 112);
+}
+#d{
+    color: rgb(184, 210, 240);
+}
+#e{
+    color: rgb(127, 127, 252);
+}
+
+/* gallery */
+.g{
+    border-color: rgb(191, 208, 223);
+    border-width: 1.5px;
+    border-style: solid;
+    align-items: center;
+    margin: 3%;
+
+}
+.pics-a{
+   float: left;
+   width: 48.5%;
+   padding-left: 1%;
+}
+.pics-b{
+    float: right;
+    width: 48.5%;
+    padding-right: 3%;
+}
+
+
+
+  
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Space Central Live</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <div class="logo-image">
+                    <img id="logo" src="SC-logo.jpg" class="img-fluid">
+                </div>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="navbar-item"><a href="facts.html">Cool Space Facts</a></li>
+                <li class="navbar-item"><a href="TheGallery/gallery.html">The Galaxy Gallery</a></li>
+                <li class="navbar-item"><a id="current" href="feed.html">Live Feeds and Videos</a></li>
+                <li class="navbar-item"><a href="history.html">Space Exploration History</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <br>
+    <h1 id='top'> Live Feeds and Videos</h1><br>
+    <div class="l">
+        <iframe class="live" src="https://www.youtube.com/embed/21X5lGlDOfg" title="NASA TV" frameborder="5"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>NASA TV
+        </iframe>
+        <p><b>NASA TV <b></p><br><br>
+        <iframe class="live" src="https://www.youtube.com/embed/DDU-rZs-Ic4" title="life feed of earth from space"
+            frameborder="5" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+        <p><b>Earth From Space <b></p><br><br>
+        <iframe class="live" src="https://www.youtube.com/embed/mB1nAzriqRQ" frameborder="5"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <p><b>NASA 2020 <b></p><br>
+        <iframe class="live" src="https://www.youtube.com/embed/hWGkozRBPUg" frameborder="5"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <p><b>Mars 2020 Perseverance rover launch <b></p><br>
+
+        <a id="backtop" href="#top">back to top</a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Space Central Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" id="current-h" href="index.html">
+                <div class="logo-image">
+                    <img id="logo" src="SC-logo.jpg" class="img-fluid">
+                </div>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="navbar-item"><a href="facts.html">Cool Space Facts</a></li>
+                <li class="navbar-item"><a href="TheGallery/gallery.html">The Galaxy Gallery</a></li>
+                <li class="navbar-item"><a href="feed.html">Live Feeds and Videos</a></li>
+                <li class="navbar-item"><a href="history.html">Space Exploration History</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <h1><img src="SC-logo.jpg" width=500px length="200px" alt="SPACE CENTRAL"></img></h1><br>
+    <p id="welcome">Welcome to Space Central. Here you will find all things space related. from information about the
+        universe to beautiful images captured by telescopes, we have it all. So buckle up, sit
+        back, and prepare for takeoff.</p>
+<br><br><br><br><br>
+    <div class="home-info">
+        <figure class="info-pic">
+            <img src="data:image/jpeg;base64,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"
+                width="300px" height="170px"></img>
+                <!-- <figcaption>Ingenuity </figcaption> -->
+                <img src="https://cdn.slashgear.com/wp-content/uploads/2020/03/mars_2020_rover_main-1280x720.jpg"
+                width="300px" height="170px"></img>
+                <!-- <figcaption>Perseverance </figcaption> -->
+        </figure>
+        <h3>Perseverance Mars Rover</h3>
+        <p>On July 30, 2020, at 7:50 a.m. EDT, the Perseverance rover began its journey to the Red Planet. Persaverance
+            will seek signs of ancient life on Mars as well as collect rock and soil samples to send back to Earth.
+            A helicopter named Ingenuity was sent with the rover. Ingenuity will mark the first powered flight on
+            another planet. Persaverance and Ingenuity are set to arrive on Mars on February 18, 2021.</p>
+            
+        
+       
+    </div>
+    </div>
+</body>
+
+</html>
